@@ -1,0 +1,5 @@
+<div class="container">
+    <text @click="playVideo">
+        播放
+    </text>
+</div>

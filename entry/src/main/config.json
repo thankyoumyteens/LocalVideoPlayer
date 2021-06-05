@@ -45,7 +45,8 @@
       {
         "pages": [
           "pages/index/index",
-          "pages/player/player"
+          "pages/player/player",
+          "pages/video-list/video-list"
         ],
         "name": "default",
         "window": {
