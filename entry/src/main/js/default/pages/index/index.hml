@@ -1,5 +1,7 @@
 <element src="../player/player.hml" name="VideoPlayer"></element>
 <div class="container">
-    <button if="{{!isShow}}" type="capsule" onclick="showPlayer">播放</button>
-    <VideoPlayer if="{{isShow}}"></VideoPlayer>
+    <button if="{{ ! isShow }}" type="capsule" onclick="showPlayer">播放</button>
+    <block if="{{isShow}}">
+        <VideoPlayer video-path="{{ videoPath }}"></VideoPlayer>
+    </block>
 </div>
