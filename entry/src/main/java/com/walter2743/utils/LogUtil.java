@@ -9,4 +9,8 @@ public class LogUtil {
     public static void log(String msg, Object... args) {
         HiLog.info(LABEL_LOG, "walter-log " + msg, args);
     }
+
+    public static void log(Object obj) {
+        HiLog.info(LABEL_LOG, "walter-log " + obj.toString());
+    }
 }

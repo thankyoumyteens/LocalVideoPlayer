@@ -15,14 +15,6 @@
     "deviceType": [
       "phone"
     ],
-    "reqPermissions": [
-      {
-        "name": "ohos.permission.READ_USER_STORAGE"
-      },
-      {
-        "name": "ohos.permission.WRITE_USER_STORAGE"
-      }
-    ],
     "distro": {
       "deliveryWithInstall": true,
       "moduleName": "entry",
@@ -50,7 +42,9 @@
       },
       {
         "permissions": [
-          "com.walter2743.localvideoplayer.DataAbilityShellProvider.PROVIDER"
+          "com.walter2743.localvideoplayer.DataAbilityShellProvider.PROVIDER",
+          "ohos.permission.READ_USER_STORAGE",
+          "ohos.permission.WRITE_USER_STORAGE"
         ],
         "name": "com.walter2743.localvideoplayer.DataAbility",
         "icon": "$media:icon",
